@@ -5,6 +5,8 @@ Important notes on UTXOs:
 3. A user's UTXOs are scattered across many blocks.
 
 Once a UTXO is "consumed", any leftover change from the transaction creates new UTXOs representing the change amounts
+
+
 4. A UTXO, often referred to as a "coin", can only be spent ONCE. No double-spending!
 5. In Bitcoin, each UTXO has a script associated with it
 
