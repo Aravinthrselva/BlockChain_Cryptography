@@ -12,6 +12,8 @@ Once a UTXO is "consumed", any leftover change from the transaction creates new 
 
 
 UTXO Example 1
+
+
 Bob runs a Bitcoin Miner. 
 He successfully computes a block and rewards himself with 12.5 BTC as per the emission rules. 
 This is a brand new Unspent Transaction Output (UTXO) Bob has introduced to the system.
@@ -26,6 +28,8 @@ Then, we'll mark the UTXO for 12.5 BTC as spent since it was used as an input fo
 
 
 UTXO Example 2
+
+
 
 One thing that can often happen when using this model, is users end up with a lot of small UTXOs. As Alice transacts with the network her, UTXO breaks up into smaller outputs until she's left with 3 UTXOs of values 1.0 BTC, 1.5 BTC, and 0.8 BTC.
 
